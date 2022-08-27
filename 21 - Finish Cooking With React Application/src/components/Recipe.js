@@ -30,8 +30,7 @@ export default function Recipe(props) {
             Delete
           </button>
         </div>
-      </div>
-      <div className="recipe__row">
+      </div>      <div className="recipe__row">
         <span className="recipe__label">Cook Time:</span>
         <span className="recipe__value">{cookTime}</span>
       </div>
@@ -44,7 +43,7 @@ export default function Recipe(props) {
         <div className="recipe__value recipe__instructions recipe__value--indented">{instructions}</div>
       </div>
       <div className="recipe__row">
-        <span className="recipe__label">Ingredients:</span>
+        <span className="recipe__label">Ingredients: this is ingredients</span>
         <div className="recipe__value recipe__value--indented">
           <IngredientList ingredients={ingredients} />
         </div>
